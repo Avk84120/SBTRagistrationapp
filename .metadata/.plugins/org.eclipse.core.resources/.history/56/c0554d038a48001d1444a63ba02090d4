@@ -1,0 +1,12 @@
+package com.prog.entity;
+
+public class UserDtls {
+	private int id;
+	private String fullname;
+	private String gender;
+	private String dob;
+	private String address;
+	private String email;
+	private String password;
+
+}
