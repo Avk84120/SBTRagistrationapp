@@ -13,4 +13,5 @@
     <fullyQualifiedTypeName name="com.prog.entity.UserDtls"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="com.prog.repository.UserRepository"/>
 </qualifiedTypeNameHistroy>
