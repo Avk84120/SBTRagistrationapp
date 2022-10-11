@@ -9,13 +9,14 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import com.prog.entity.UserDtls;
-
-@Autowired
-private UserRepository repo;
-
+import com.prog.repository.UserRepository;
 
 @Controller
 public class UserController {
+	
+	@Autowired
+	private UserRepository repo;
+	
 	
 	@GetMapping("/")
 	public String home() 
